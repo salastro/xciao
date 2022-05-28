@@ -28,30 +28,6 @@ static Remap remaps[] = {
     {"Brave-browser", "Mod1Mask",    "l",           "",            "Right"},/* Right arrow key */
     {"Brave-browser", "ControlMask", "bracketleft", "Mod1Mask",    "Left"}, /* Backwards history */
     {"Brave-browser", "ControlMask", "bracketright","Mod1Mask",    "Right"},/* Forwards history */
-
-    {"Chromium", "ControlMask", "k",           "ControlMask", "Next"}, /* Next tab */
-    {"Chromium", "ControlMask", "j",           "ControlMask", "Prior"},/* Previous tab */
-    {"Chromium", "ControlMask", "h",           "Mod1Mask",    "Home"},  /* Control-h -> Home page */
-    {"Chromium", "ControlMask", "d",           "",            "Next"}, /* Page down */
-    {"Chromium", "ControlMask", "u",           "",            "Prior"},/* Page up */
-    {"Chromium", "Mod1Mask",    "h",           "",            "Left"}, /* Left arrow key */
-    {"Chromium", "Mod1Mask",    "j",           "",            "Down"}, /* Down arrow key */
-    {"Chromium", "Mod1Mask",    "k",           "",            "Up"},   /* Up arrow key */
-    {"Chromium", "Mod1Mask",    "l",           "",            "Right"},/* Right arrow key */
-    {"Chromium", "ControlMask", "bracketleft", "Mod1Mask",    "Left"}, /* Backwards history */
-    {"Chromium", "ControlMask", "bracketright","Mod1Mask",    "Right"},/* Forwards history */
-
-    {"firefox-nightly", "ControlMask", "k",           "ControlMask", "Next"}, /* Next tab */
-    {"firefox-nightly", "ControlMask", "j",           "ControlMask", "Prior"},/* Previous tab */
-    {"firefox-nightly", "ControlMask", "h",           "Mod1Mask",    "Home"},  /* Control-h -> Home page */
-    {"firefox-nightly", "ControlMask", "d",           "",            "Next"}, /* Page down */
-    {"firefox-nightly", "ControlMask", "u",           "",            "Prior"},/* Page up */
-    {"firefox-nightly", "Mod1Mask",    "h",           "",            "Left"}, /* Left arrow key */
-    {"firefox-nightly", "Mod1Mask",    "j",           "",            "Down"}, /* Down arrow key */
-    {"firefox-nightly", "Mod1Mask",    "k",           "",            "Up"},   /* Up arrow key */
-    {"firefox-nightly", "Mod1Mask",    "l",           "",            "Right"},/* Right arrow key */
-    {"firefox-nightly", "ControlMask", "bracketleft", "Mod1Mask",    "Left"}, /* Backwards history */
-    {"firefox-nightly", "ControlMask", "bracketright","Mod1Mask",    "Right"} /* Forwards history */
 };
 
 char *getwindowclass(Display *display, Window w, XClassHint ch) {

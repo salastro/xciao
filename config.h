@@ -2,7 +2,6 @@ static Remap remaps[] = {
     /*       Class      | Input mask  | input key    | Output mask  | Output key */
     {"Brave-browser", "ControlMask", "k",           "ControlMask", "Next"}, /* Next tab */
     {"Brave-browser", "ControlMask", "j",           "ControlMask", "Prior"},/* Previous tab */
-    {"Brave-browser", "ControlMask", "h",           "Mod1Mask",    "Home"},  /* Control-h -> Home page */
     {"Brave-browser", "ControlMask", "d",           "",            "Next"}, /* Page down */
     {"Brave-browser", "ControlMask", "u",           "",            "Prior"},/* Page up */
     {"Brave-browser", "Mod1Mask",    "h",           "",            "Left"}, /* Left arrow key */

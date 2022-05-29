@@ -9,9 +9,10 @@ LIBS = -lX11
 
 all:
 	$(CC) $(SRC) $(LIBS) -o $(TARGET)
+	./config-to-sxhkd.sh
 
 clean:
-	rm $(TARGET)
+	rm -f $(TARGET) sxhkd
 
 install:
 	mkdir -p $(DESTDIR)$(PREFIX)/bin

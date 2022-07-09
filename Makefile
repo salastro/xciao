@@ -14,7 +14,7 @@ all:
 clean:
 	rm -f $(TARGET) sxhkd
 
-install:
+install: all
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f xciao $(DESTDIR)$(PREFIX)/bin
 	chmod 755 $(DESTDIR)$(PREFIX)/bin/xciao
